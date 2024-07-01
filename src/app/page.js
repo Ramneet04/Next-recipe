@@ -11,10 +11,8 @@ export default function Home() {
   }
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <h1>Hello Ramneet</h1>
-      <Link href={"/products"}>Navigate to products</Link>
-      <h2 className="text-xl text-red">Navigate to products</h2>
-      <button onClick={handleNavigate} className="font-bold">Navigate</button>
+      <h1>Welcome to Recipie App</h1>
+      <Link href={"/recipe-list"}>Go to Recipie</Link>
     </main>
   )
 }

@@ -1,8 +1,9 @@
+import { Skeleton } from '@/components/ui/skeleton'
 import React from 'react'
 
 const Loading = () => {
   return (
-    <div className='text-4xl'>loading! pease wait</div>
+    <div className='w-full min-h-screen'><Skeleton/></div>
   )
 }
 
